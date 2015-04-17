@@ -17,12 +17,12 @@ var webpack = require('jstransformer')(require('jstransformer-webpack'))
 
 var options = {
   output: {
-  	path: __dirname,
+  	path: 'out',
   	filename: 'bundle.js'
   }
 };
 webpack.renderFileAsync('entry.js', options, function(err, data) {
-  // bundle.js compiled.
+  // out/bundle.js is now compiled.
 
   data.body
   //=> stats from http://webpack.github.io/docs/node.js-api.html
