@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.1.1: 2015-05-28
+## v0.1.1: 2015-06-05
 
 - Fixed return value
 
