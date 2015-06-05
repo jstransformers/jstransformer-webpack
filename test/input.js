@@ -11,4 +11,4 @@ var array2 = {
 
 var output = merge(array1, array2);
 
-console.log(JSON.stringify(output));
+console.log(output.salutation + output.seperator + output.name);

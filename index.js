@@ -25,6 +25,7 @@ exports.renderFileAsync = function (filename, options, locals) {
     if (locals) {
       options = merge(options, locals);
     }
+
     // Compile with Webpack.
     webpack(options, function(error, stats) {
       // Check for hard compilation errors.
@@ -38,7 +39,7 @@ exports.renderFileAsync = function (filename, options, locals) {
         return reject(stats.errors);
       }
 
-      resolve(stats);
+      return resolve(JSON.stringify(stats));
     });
   });
 };
