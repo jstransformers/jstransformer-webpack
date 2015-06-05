@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.1: 2015-05-28
+
+- Fixed return value
+
 ## v0.1.0: 2015-05-28
 
 - Updated depencies
