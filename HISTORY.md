@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.0: 2016-11-13
+
+- Update Boilerplate
+
 ## v0.1.1: 2015-06-05
 
 - Fixed return value
