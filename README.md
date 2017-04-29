@@ -1,5 +1,7 @@
 # jstransformer-webpack
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-webpack.svg)](https://greenkeeper.io/)
+
 [Webpack](http://webpack.github.io) support for [JSTransformers](https://github.com/jstransformers/jstransformer).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-webpack/master.svg)](https://travis-ci.org/jstransformers/jstransformer-webpack)
