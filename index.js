@@ -25,6 +25,13 @@ exports.renderFileAsync = function (filename, options, locals) {
       options = merge(options, locals)
     }
 
+    // Ensure the given path is absolute.
+    if (options.output && options.output.path) {
+      if (!path.isAbsolute(options.output.path)) {
+        options.output.path = fs.realpathSync(options.output.path)
+      }
+    }
+
     // Compile with Webpack.
     webpack(options, (error, stats) => {
       // Check for hard compilation errors.

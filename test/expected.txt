@@ -1,5 +1,0 @@
-{
-  "salutation": "Hello",
-  "seperator": " ",
-  "name": "World!"
-}

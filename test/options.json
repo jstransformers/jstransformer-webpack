@@ -1,6 +1,6 @@
 {
   "output": {
-    "path": "test/build",
-    "filename": "index.js"
+    "path": "test",
+    "filename": "output.js"
   }
 }

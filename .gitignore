@@ -24,4 +24,4 @@ package-lock.json
 .lock-wscript
 
 # Built test files
-test/build
+test/output.js
