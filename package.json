@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "merge": "^1.2.0",
-    "webpack": "^4.5.0"
+    "webpack": "^4.17.3"
   },
   "name": "jstransformer-webpack",
   "version": "0.3.0",
